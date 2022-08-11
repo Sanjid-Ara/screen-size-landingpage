@@ -21,7 +21,8 @@
     position: absolute;
     height: 73%;
     width: 40%;
-    background-color: rgba(5, 5, 5, 0.507);
+    background-image:linear-gradient(rgba(255, 255, 255, 0.925),rgba(0, 0, 0, 0.918),rgba(0, 0, 0, 0.918),rgba(255, 255, 255, 0.24)) ;
+    /* opacity: .9; */
     padding-left: 10%;
     padding-top: 13%;
 }
@@ -36,7 +37,7 @@
     font-weight: 900;
 }
 .box-1 h2{
-    margin-top: 40px;
+    margin-top: 80px;
     font-weight: 100;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -106,6 +107,7 @@
     /* background-color: red; */
     position: absolute;
     right: 55%;
+    bottom:90px
 }
 .header .logo img{
     height: 40px;
@@ -116,6 +118,7 @@
     top: 20%;
     left: 29%;
     font-size: 30px;
+    font-weight: 500;
 }
 .header p::after{
     content: "travel";
@@ -136,6 +139,6 @@
     color: black;
     text-decoration: none;
     padding: 10px 15px;
-    font-weight: 900;
-
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
